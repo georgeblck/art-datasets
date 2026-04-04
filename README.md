@@ -50,13 +50,14 @@ Sorted by year (newest first) within each category.
 | Multitask Painting Collection | ~100,000 images | 2019 | ✅ | [paper](https://arxiv.org/pdf/1812.08052.pdf), [data](http://www.ivl.disco.unimib.it/activities/paintings/) | Multitask learning: artist, style, genre, period |
 | Best Artworks of All Time | ~8,000 images | 2019 | ✅ | [kaggle](https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time) | 50 most influential artists, popular starter dataset |
 | BAM! | 2.5M+ images | 2017 | 📄 | [paper](https://arxiv.org/abs/1704.08614) | Behance Artistic Media: content, emotion, and media labels. ICCV 2017 |
-| Art 500K | ~500,000 images | 2017 | ✅ | [paper](https://dl.acm.org/doi/pdf/10.1145/3123266.3123405), [data+code](http://deepart2.ece.ust.hk/ART500K/art500k.html) | Large-scale art retrieval and attribute prediction |
+| Art 500K | ~500,000 images | 2017 | 📄 | [paper](https://dl.acm.org/doi/pdf/10.1145/3123266.3123405), ~~[data](http://deepart2.ece.ust.hk/ART500K/art500k.html)~~ | Large-scale art retrieval. Download link dead (404 as of 2026-04). Compiled from WikiArt + WGA + Rijks + Google Arts |
 | Pandora 18k | 18,038 images | 2016 | 📄 | [paper](https://arxiv.org/abs/1602.08855) | 18 art styles, expert-labeled, higher annotation quality than WikiArt |
 | Painter by Numbers | 103,250 images | 2016 | ✅ | [kaggle](https://www.kaggle.com/c/painter-by-numbers) | Kaggle competition: predict whether two paintings are by the same artist |
 | Rijksmuseum Challenge | 112,039 images (3,593 paintings) | 2014 | ✅ | [paper](https://dl.acm.org/doi/pdf/10.1145/2578726.2578791), [data](https://figshare.com/articles/Rijksmuseum_Challenge_2014/5660617), [code](https://github.com/tmensink/rijkschallenge) | Artist, material, type prediction |
 | Painting-91 | 4,266 images | 2014 | ✅ | [paper](https://link.springer.com/article/10.1007/s00138-014-0621-6), [data](http://www.cat.uab.cat/~joost/painting91.html) | 91 painters, style classification |
 | PRINTART | 988 images | 2012 | ✅ | [paper](https://link.springer.com/content/pdf/10.1007%2F978-3-642-33765-9_11.pdf), [data](http://printart.isr.ist.utl.pt/database.html) | Print art classification |
-| WikiArt | ~250,000 images | ongoing | ✅ | [website](https://www.wikiart.org/), [crawler](https://github.com/lucasdavid/wikiart), [source 1](https://github.com/rkjones4/GANGogh), [source 2](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset), [kaggle](https://www.kaggle.com/datasets/steubk/wikiart) | 3,000+ artists, most widely used art dataset |
+| WikiArt | ~250,000 images | ✅ | varies | [website](https://www.wikiart.org/), [crawler](https://github.com/lucasdavid/wikiart), [source 1](https://github.com/rkjones4/GANGogh), [source 2](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset), [kaggle](https://www.kaggle.com/datasets/steubk/wikiart) | 3,000+ artists, most widely used art dataset. API signups currently disabled |
+| WikiArt 215K (HuggingFace) | 215,000 images | ✅ | varies | [huggingface](https://huggingface.co/datasets/matrixglitch/wikiart-215k) | Preprocessed WikiArt with image URLs and captions (title, artist, year, genre, style). 150K+ with parseable dates |
 | Web Gallery of Art | ~19,000 images | ongoing | ✅ | [website](https://www.wga.hu/index1.html) | European fine art, encyclopedic scope |
 
 ### Object Detection, Pose & Iconography
@@ -103,7 +104,7 @@ Sorted by year (newest first) within each category.
 | MELArt | annotations over Wikimedia art | 2024 | ✅ | [paper](https://drops.dagstuhl.de/entities/document/10.4230/TGDK.2.2.8), [code](https://github.com/HPI-Information-Systems/MELArt) | Multimodal entity linking in paintings |
 | AQUA | QA pairs over SemArt | 2020 | ✅ | [paper](https://arxiv.org/abs/2008.12520), [code](https://github.com/noagarcia/ArtVQA) | Visual and knowledge-based question answering on art |
 | Artpedia | 2,930 paintings | 2019 | 📄 | [paper](https://link.springer.com/chapter/10.1007/978-3-030-30645-8_66) | 28,212 text sentences (visual + contextual), cross-modal retrieval |
-| OmniArt | 2,050,017 images | 2018 | 📩 | [paper](https://dl.acm.org/doi/10.1145/3273022), [data](http://isis-data.science.uva.nl/strezoski/#3) | Multi-task, multi-label, metadata-rich. Apply for torrent |
+| OmniArt | 2,050,017 images | 2018 | 📄 | [paper](https://dl.acm.org/doi/10.1145/3273022), ~~[data](http://isis-data.science.uva.nl/strezoski/#3)~~ | Multi-task, multi-label, metadata-rich. Download links dead (as of 2026-04). Compiled from Rijks + Met + WGA |
 | SemArt | 21,383 images | 2018 | ✅ | [paper](http://noagarciad.com/docs/VISART2018.pdf), [data](http://noagarciad.com/SemArt/) | Semantic art descriptions paired with images |
 
 ### Sketches & Drawings
@@ -135,6 +136,8 @@ Sorted by year (newest first) within each category.
 | Pick-a-Pic | 1M+ preference pairs | 2023 | ✅ | [paper](https://arxiv.org/abs/2305.01569), [huggingface](https://huggingface.co/datasets/yuvalkirstain/pickapic_v1) | Human preferences for text-to-image, used for RLHF |
 | JourneyDB | 4,429,295 images | 2023 | ✅ | [paper](https://arxiv.org/abs/2307.00716), [data](https://journeydb.github.io/), [huggingface](https://huggingface.co/datasets/JourneyDB/JourneyDB) | Midjourney images with prompts, captions, VQA. NeurIPS 2023 |
 | AI-ArtBench | 185,015 images | 2023 | ✅ | [data (IEEE)](https://ieee-dataport.org/documents/ai-artbench), [kaggle](https://www.kaggle.com/datasets/ravidussilva/real-ai-art) | 60K human + 125K AI-generated, real vs AI art detection |
+| Art-fm | 650K art images (training set) | 2025 | 📄 | [paper](https://arxiv.org/abs/2503.19527), [code](https://github.com/CompVis/fm-boosting) | Flow matching for art generation trained on 650K curated images (WikiArt + 7 museum sources, SSCD-deduped from 950K). LMU Munich, ICCV 2025 |
+| SCFlow | N/A (model only) | 2025 | ✅ | [paper](https://arxiv.org/abs/2312.03478), [code](https://github.com/CompVis/SCFlow) | Style/content disentanglement via conditional flow matching in CLIP space. Same lab as Art-fm. ICCV 2025 |
 | LAION-Aesthetics | ~120M images (score >7) | 2022 | ✅ | [info](https://laion.ai/blog/laion-aesthetics/), [data](https://github.com/LAION-AI/laion-datasets/blob/main/laion-aesthetic.md) | Aesthetic-filtered subset of LAION-5B, used to train Stable Diffusion v1 |
 | DiffusionDB | 14M images, 1.8M prompts | 2022 | ✅ | [paper](https://arxiv.org/abs/2210.14896), [code](https://github.com/poloclub/diffusiondb), [huggingface](https://huggingface.co/datasets/poloclub/diffusiondb) | Stable Diffusion prompt-image pairs from Discord |
 | COYO-700M | 747M image-text pairs | 2022 | ✅ | [data](https://github.com/kakaobrain/coyo-dataset) | Large-scale image-text pairs, CC-BY-4.0 |
@@ -186,7 +189,7 @@ Open-access collections from cultural institutions. Sorted by collection size (l
 | The Metropolitan Museum of Art | 470,000+ artworks | ✅ | CC0 | [github](https://github.com/metmuseum/openaccess) | Comprehensive metadata CSV, regularly updated |
 | iMet Collection | 375,000 images | ✅ | varies | [paper](https://arxiv.org/pdf/1906.00901.pdf), [kaggle](https://www.kaggle.com/c/imet-2019-fgvc6/overview) | Fine-grained attribute recognition challenge |
 | Cooper Hewitt | 215,000+ objects | ✅ | CC0 | [github](https://github.com/cooperhewitt/collection), [API](https://collection.cooperhewitt.org/api/) | Smithsonian design museum, JSON per object |
-| Paris Musees | 150,000+ images | ✅ | CC0 | [website](http://parismuseescollections.paris.fr/en) | 14 Paris city museums |
+| Paris Musees | 150,000+ images | ✅ | CC0 | [website](http://parismuseescollections.paris.fr/en), [API](https://apicollections.parismusees.paris.fr/) | 14 Paris city museums. GraphQL API with free account (session cookie auth). ~8K paintings + ~63K drawings with dates and images |
 | National Gallery of Art (DC) | 130,000+ artworks | ✅ | CC0 | [github](https://github.com/NationalGalleryOfArt/opendata) | CSV format with Wikidata identifiers |
 
 ### Medium Collections (10,000-100,000 objects)
@@ -223,11 +226,11 @@ Open-access collections from cultural institutions. Sorted by collection size (l
 
 | Collection | Avail. | License | Links | Notes |
 |------------|--------|---------|-------|-------|
-| MoMA Collection | ✅ | varies | [github](https://github.com/MuseumofModernArt/collection) | Artist, artwork, exhibition data (no images) |
+| MoMA Collection | ✅ | varies | [github](https://github.com/MuseumofModernArt/collection) | Artist, artwork, exhibition data. Artworks.csv (via LFS) includes ImageURL column with direct JPEG links for ~64K works |
 | Carnegie Museum of Art | ✅ | CC0 | [github](https://github.com/cmoa/collection) | Pittsburgh collection metadata |
-| The Tate Collection | ✅ | CC0 | [github](https://github.com/tategallery/collection) | No longer actively maintained |
+| The Tate Collection | ✅ | CC-BY-NC-ND 3.0 | [github](https://github.com/tategallery/collection) | Metadata CSV includes thumbnail URLs. Images downloadable via CDN (swap _8.jpg for _10.jpg for 1536px). ~38K paintings/drawings with dates |
 | Nationalmuseum Sweden | ✅ | CC0 | [github](https://github.com/NationalmuseumSWE/WikidataCollection) | Wikidata-linked metadata |
-| ArtUK | 🔒 | restricted | [website](https://artuk.org/) | UK public art, browsable only, no bulk download |
+| ArtUK | 🔒 | restricted | [website](https://artuk.org/) | UK public art, browsable only. MDS extract API exists but aggressive bot protection (403 on all programmatic access, including Selenium, as of 2026-04) |
 
 ---
 
