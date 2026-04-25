@@ -154,6 +154,7 @@ Sorted by year (newest first) within each category.
 | Dataset | Size | Year | Avail. | Links | Notes |
 |---------|------|------|--------|-------|-------|
 | CULTURE3D | 41,006 drone images, 20 sites | 2025 | ✅ | [paper](https://arxiv.org/abs/2501.06927), [code](https://github.com/openinterx/culture3d) | Cultural landmarks 3D reconstruction (pyramids, Forbidden City, etc.) |
+| ARTeFACT | 445 images, 11,000+ annotations | 2024 | ✅ | [paper](https://arxiv.org/abs/2412.04580), [huggingface](https://huggingface.co/datasets/danielaivanova/damaged-media) | Pixel-level damage segmentation benchmark. 15 damage classes (i.e. cracks, dirt, material loss), 10 substrate materials, 4 content types, 20 media types (i.e. paintings, frescoes, manuscripts, mosaics, photographs). AFL-3.0 |
 | MuralDH | 5,000+ images | 2024 | ✅ | [paper](https://www.nature.com/articles/s41597-024-03785-0), [code](https://github.com/tearsheaven/MuralDH) | Dunhuang mural restoration: segmentation, inpainting, super-resolution |
 | WikiScenes | landmark photo collections | 2021 | ✅ | [code](https://github.com/tgxs002/wikiscenes) | Architectural landmarks with captions and 3D geometry. ICCV 2021 |
 | ArchAIDE | 435 sketches, 381 photos | 2020 | 📄 | [paper](https://www.sciencedirect.com/science/article/abs/pii/S2352409X20305794) | Archaeological pottery classification via shape and decoration |
