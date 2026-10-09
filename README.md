@@ -77,6 +77,7 @@ Sorted by year (newest first) within each category.
 
 | Dataset | Size | Year | Avail. | Links | Notes |
 |---------|------|------|--------|-------|-------|
+| Lunara Art Eval | 8,000 images, 1,000 prompts | 2026 | ✅ | [paper](https://arxiv.org/abs/2609.22272), [huggingface](https://huggingface.co/datasets/moonworks/lunara-art-eval) | Images from 8 models with automated aesthetic, emotional evocation, and content integrity scores. Apache 2.0 |
 | ArtELingo-28 | ~200,000 annotations, 28 languages | 2024 | 📄 | [paper](https://aclanthology.org/2024.emnlp-main.1165/) | Multilingual art emotion annotations. EMNLP 2024 |
 | APDDv2 | 10,023 images, 85,191 scores | 2024 | ✅ | [paper](https://arxiv.org/abs/2411.08545), [code](https://github.com/BestiVictory/APDDv2) | Expert aesthetic scores and language comments, 10 attributes. NeurIPS 2024 |
 | BAID | 60,337 images, 360,000+ votes | 2023 | ✅ | [paper](https://arxiv.org/abs/2303.15166), [code](https://github.com/Dreemurr-T/BAID) | BoldBrush artistic image aesthetics with user votes. CVPR 2023 |
@@ -130,6 +131,8 @@ Sorted by year (newest first) within each category.
 
 | Dataset | Size | Year | Avail. | Links | Notes |
 |---------|------|------|--------|-------|-------|
+| Lunara Aesthetic II | 2,854 image pairs | 2026 | ✅ | [paper](https://arxiv.org/abs/2602.01666), [huggingface](https://huggingface.co/datasets/moonworks/lunara-aesthetic-image-variations) | Original art/photos paired with generated contextual variants for identity preservation and image editing. Apache 2.0 |
+| Lunara Aesthetic I | 2,000 image-prompt pairs | 2026 | ✅ | [paper](https://arxiv.org/abs/2601.07941), [huggingface](https://huggingface.co/datasets/moonworks/lunara-aesthetic) | Synthetic art with human-refined prompts and region, style, and topic labels. Apache 2.0 |
 | Danbooru2023 | 5M+ images, 162M+ tags | 2023 | ✅ | [data (2021)](https://gwern.net/danbooru2021), [huggingface (2023)](https://huggingface.co/datasets/nyanko7/danbooru2023) | Crowdsourced anime/illustration, ~30 tags per image |
 | CommonCanvas | ~70M CC images | 2023 | ✅ | [paper](https://arxiv.org/abs/2310.16825), [models](https://huggingface.co/common-canvas/CommonCanvas-XL-C) | Copyright-safe training data for diffusion models. CVPR 2024 |
 | TWIGMA | 800,000+ images | 2023 | ✅ | [paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/769b70d1a9a6b21af53c00d0b322c763-Abstract-Datasets_and_Benchmarks.html), [data](https://zenodo.org/records/8031785) | AI-generated images from Twitter with metadata. NeurIPS 2023 |
